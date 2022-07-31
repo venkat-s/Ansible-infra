@@ -1,4 +1,3 @@
-### Hi there 👋
 
 <!--
 **venkat-s/venkat-s** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,10 +13,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-<!-- markdownlint-disable MD032 MD033-->
-# 🔥 **Venkat-S GitHub Project Template**
-
-
-
+### Hi there 👋
 ---
