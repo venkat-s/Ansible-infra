@@ -1,8 +1,8 @@
 #AWS Provider
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAYMLONH22QJ3ZNM6O"
-  secret_key = "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"
+  access_key = "AWS_ACCESS_KEY_ID"
+  secret_key = "AWS_SECRET_ACCESS_KEY"
 }
 
 #Ansible Master
