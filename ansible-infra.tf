@@ -5,7 +5,7 @@ provider "aws" {
   secret_key = "/2/gXSmNVoqvlnyHIBnkg9lppPEN79wZuc3ISUch"
 }
 
-#Ansible Master
+#!Ansible Master
 resource "aws_instance" "ansible_master" { 
   ami           = "ami-02358d9f5245918a3"
   instance_type = "t2.micro"
@@ -16,7 +16,7 @@ resource "aws_instance" "ansible_master" {
   }
 }
 
-#Ansible Node1
+#!Ansible Node1
 resource "aws_instance" "ansible_node1" {
   ami           = "ami-02358d9f5245918a3"
   instance_type = "t2.micro"
@@ -26,7 +26,7 @@ resource "aws_instance" "ansible_node1" {
   }
 }
 
-#Ansible Node2
+#!Ansible Node2
 resource "aws_instance" "ansible_node2" {
   ami           = "ami-02358d9f5245918a3"
   instance_type = "t2.micro"
@@ -35,4 +35,3 @@ resource "aws_instance" "ansible_node2" {
     Name = "Ansible Node2"
   }
 }
-
