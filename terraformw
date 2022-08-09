@@ -5,13 +5,13 @@
 echo "Installing tfswitch locally"
 
 # Get the installer on to your machine
-wget -N -c https://raw.githubusercontent.com/warrensbox/terraform-switcher/release/install.sh
+wget -N -c https://raw.githubusercontent.com/warrensbox/terraform-switcher/release/install_ansible.sh
 
 # Make installer executable
-chmod 755 install.sh
+chmod 755 install_ansible.sh
 
 # Install tfswitch in a location you have permission
-./install.sh -b $(pwd)/.bin
+./install_ansible.sh -b $(pwd)/.bin
 
 # set custom bin path
 CUSTOMBIN=$(pwd)/.bin
